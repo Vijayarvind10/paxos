@@ -30,10 +30,10 @@ The implementation follows the classic two-phase Paxos protocol:
 
 To build the project, use the following commands:
 
-bash
-mkdir -p build && cd build
-cmake ..
-make
+* bash
+* mkdir -p build && cd build
+* cmake ..
+* make
 
 ## Project Structure
 
