@@ -26,11 +26,17 @@ The implementation follows the classic two-phase Paxos protocol:
 * Google Test (for unit tests)
 
 
-Markdown
+## Build Instructions
+
+To build the project, use the following commands:
+
+bash
+mkdir -p build && cd build
+cmake ..
+make
 
 ## Project Structure
 
-## Project Structure
 
 * `src/`
     * `consensus/`
