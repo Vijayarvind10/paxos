@@ -36,7 +36,7 @@ make
 
 ## Running Tests (Bash)
 
-```bash
+bash
 cd build
 ctest --verbose
 
