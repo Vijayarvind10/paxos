@@ -25,20 +25,6 @@ The implementation follows the classic two-phase Paxos protocol:
 * CMake 3.15 or higher
 * Google Test (for unit tests)
 
-## Build Instructions
-
-To build the project, use the following commands:
-
-
-mkdir -p build && cd build
-cmake ..
-make
-
-## Running Tests (Bash)
-
-bash
-cd build
-ctest --verbose
 
 ##Project Structure
 src/
