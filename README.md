@@ -26,7 +26,7 @@ The implementation follows the classic two-phase Paxos protocol:
 * Google Test (for unit tests)
 
 
-##Project Structure
+## Project Structure
 src/
 ├── consensus/
 │   ├── acceptor.hpp      # Acceptor interface
@@ -47,16 +47,16 @@ tests/
     ├── CMakeLists.txt
     └── test_consensus.cpp
 
-##Contributing
+## Contributing
 Contributions are welcome! Feel free to submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details. (Replace with your actual license)
 
-##References
+## References
 Paxos Made Simple by Leslie Lamport
 Understanding Paxos
-##Copyright
+## Copyright
 Copyright (c) 2025 [Vijay Arvind Ramamoorthy]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
