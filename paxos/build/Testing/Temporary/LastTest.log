@@ -1,0 +1,111 @@
+Start testing: Feb 08 13:49 PST
+----------------------------------------------------------
+1/4 Testing: AcceptorTest.HandlePrepare
+1/4 Test: AcceptorTest.HandlePrepare
+Command: "/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus" "--gtest_filter=AcceptorTest.HandlePrepare" "--gtest_also_run_disabled_tests"
+Directory: /Users/vijayarvind/Documents/Personal/paxos/build/tests/unit
+"AcceptorTest.HandlePrepare" start time: Feb 08 13:49 PST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20250207-4735-e28tfc/googletest-1.16.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AcceptorTest.HandlePrepare
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AcceptorTest
+[ RUN      ] AcceptorTest.HandlePrepare
+[       OK ] AcceptorTest.HandlePrepare (0 ms)
+[----------] 1 test from AcceptorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AcceptorTest.HandlePrepare" end time: Feb 08 13:49 PST
+"AcceptorTest.HandlePrepare" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: AcceptorTest.HandleAccept
+2/4 Test: AcceptorTest.HandleAccept
+Command: "/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus" "--gtest_filter=AcceptorTest.HandleAccept" "--gtest_also_run_disabled_tests"
+Directory: /Users/vijayarvind/Documents/Personal/paxos/build/tests/unit
+"AcceptorTest.HandleAccept" start time: Feb 08 13:49 PST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20250207-4735-e28tfc/googletest-1.16.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AcceptorTest.HandleAccept
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AcceptorTest
+[ RUN      ] AcceptorTest.HandleAccept
+[       OK ] AcceptorTest.HandleAccept (0 ms)
+[----------] 1 test from AcceptorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AcceptorTest.HandleAccept" end time: Feb 08 13:49 PST
+"AcceptorTest.HandleAccept" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: ProposerTest.Propose
+3/4 Test: ProposerTest.Propose
+Command: "/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus" "--gtest_filter=ProposerTest.Propose" "--gtest_also_run_disabled_tests"
+Directory: /Users/vijayarvind/Documents/Personal/paxos/build/tests/unit
+"ProposerTest.Propose" start time: Feb 08 13:49 PST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20250207-4735-e28tfc/googletest-1.16.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ProposerTest.Propose
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ProposerTest
+[ RUN      ] ProposerTest.Propose
+[       OK ] ProposerTest.Propose (0 ms)
+[----------] 1 test from ProposerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ProposerTest.Propose" end time: Feb 08 13:49 PST
+"ProposerTest.Propose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: LearnerTest.Learn
+4/4 Test: LearnerTest.Learn
+Command: "/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus" "--gtest_filter=LearnerTest.Learn" "--gtest_also_run_disabled_tests"
+Directory: /Users/vijayarvind/Documents/Personal/paxos/build/tests/unit
+"LearnerTest.Learn" start time: Feb 08 13:49 PST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20250207-4735-e28tfc/googletest-1.16.0/googletest/src/gtest_main.cc
+Note: Google Test filter = LearnerTest.Learn
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LearnerTest
+[ RUN      ] LearnerTest.Learn
+[       OK ] LearnerTest.Learn (0 ms)
+[----------] 1 test from LearnerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LearnerTest.Learn" end time: Feb 08 13:49 PST
+"LearnerTest.Learn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 08 13:49 PST

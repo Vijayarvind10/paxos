@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libpaxos.a CMakeFiles/paxos.dir/src/consensus/acceptor.cpp.o CMakeFiles/paxos.dir/src/consensus/proposer.cpp.o CMakeFiles/paxos.dir/src/consensus/learner.cpp.o CMakeFiles/paxos.dir/src/storage/state_manager.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libpaxos.a

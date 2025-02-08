@@ -1,0 +1,5 @@
+if(EXISTS "/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus[1]_tests.cmake")
+  include("/Users/vijayarvind/Documents/Personal/paxos/build/tests/unit/test_consensus[1]_tests.cmake")
+else()
+  add_test(test_consensus_NOT_BUILT test_consensus_NOT_BUILT)
+endif()
