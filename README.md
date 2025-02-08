@@ -26,7 +26,10 @@ The implementation follows the classic two-phase Paxos protocol:
 * Google Test (for unit tests)
 
 
+Markdown
+
 ## Project Structure
+
 src/
 ├── consensus/
 │   ├── acceptor.hpp      # Acceptor interface
@@ -39,18 +42,13 @@ src/
 │   ├── messages.hpp      # Message definitions
 │   └── types.hpp         # Basic type definitions
 └── storage/
-    ├── state_manager.hpp # State persistence interface
-    └── state_manager.cpp # State persistence implementation
+├── state_manager.hpp # State persistence interface
+└── state_manager.cpp # State persistence implementation
 
 tests/
 └── unit/
-    ├── CMakeLists.txt
-    └── test_consensus.cpp
-
-## Contributing
-Contributions are welcome! Feel free to submit a pull request.
-
-## License
+├── CMakeLists.txt
+└── test_consensus.cpp
 This project is licensed under the MIT License - see the LICENSE file for details. (Replace with your actual license)
 
 ## References
