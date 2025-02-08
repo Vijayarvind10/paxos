@@ -40,7 +40,7 @@ bash
 cd build
 ctest --verbose
 
-## Project Structure
+##Project Structure
 src/
 ├── consensus/
 │   ├── acceptor.hpp      # Acceptor interface
@@ -61,7 +61,7 @@ tests/
     ├── CMakeLists.txt
     └── test_consensus.cpp
 
-## Contributing
+##Contributing
 Contributions are welcome! Feel free to submit a pull request.
 
 ##License
