@@ -30,26 +30,26 @@ Markdown
 
 ## Project Structure
 
-src/
-├── consensus/
-│   ├── acceptor.hpp      # Acceptor interface
-│   ├── acceptor.cpp      # Acceptor implementation
-│   ├── proposer.hpp      # Proposer interface
-│   ├── proposer.cpp      # Proposer implementation
-│   ├── learner.hpp       # Learner interface
-│   └── learner.cpp       # Learner implementation
-├── core/
-│   ├── messages.hpp      # Message definitions
-│   └── types.hpp         # Basic type definitions
-└── storage/
-├── state_manager.hpp # State persistence interface
-└── state_manager.cpp # State persistence implementation
+## Project Structure
 
-tests/
-└── unit/
-├── CMakeLists.txt
-└── test_consensus.cpp
-This project is licensed under the MIT License - see the LICENSE file for details. (Replace with your actual license)
+* `src/`
+    * `consensus/`
+        * `acceptor.hpp`      # Acceptor interface
+        * `acceptor.cpp`      # Acceptor implementation
+        * `proposer.hpp`      # Proposer interface
+        * `proposer.cpp`      # Proposer implementation
+        * `learner.hpp`       # Learner interface
+        * `learner.cpp`       # Learner implementation
+    * `core/`
+        * `messages.hpp`      # Message definitions
+        * `types.hpp`         # Basic type definitions
+    * `storage/`
+        * `state_manager.hpp` # State persistence interface
+        * `state_manager.cpp` # State persistence implementation
+* `tests/`
+    * `unit/`
+        * `CMakeLists.txt`
+        * `test_consensus.cpp`
 
 ## References
 Paxos Made Simple by Leslie Lamport
